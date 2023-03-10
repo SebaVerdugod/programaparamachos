@@ -76,27 +76,28 @@ function generar(){
         const text = document.getElementById("text")
         const programa = `
         <h1>Programa Generado</h1>
-        <label>N10 T1212</label>
-        <label>N20 G97 S1000 M4</label>
-        <label>N30 G0 X18 Z30</label>
-        <label>N40 G0 Z1.6</label>
-        <label>N50 G94 X-1.6 Z-0.05</label>
-        <label>N60 G0 X25 Z25</label>
-        <label>N70 G0 G42 X-1.6 Z10</label>
-        <label>N80 G1 Z1.5 F9</label>
-        <label>N90 G1 Z0 F0.1</label>
-        <label>N100 G1 X${i1}</label>
-        <label>N110 G3 X${i2} Z${i3} R${i4}</label>
-        <label>N120 G1 X${i5} Z${i6}</label>
-        <label>N130 G1 X${i7} Z${i8}</label>
-        <label>N140 G2 X${i9} Z${i10} R${i11}</label>
-        <label>N150 G1 Z${i12}</label>
-        <label>N160 G1 X${i13}</label>
-        <label>N170 G0 G40 X200 Z200</label>
-        <label>N180 T1010</label>
-        <label>N190 G97 S1200 M4</label>
-        <label>N200 G70 P30 Q150</label>
-        <label>N210 G0 G40 X200 Z200</label>
+        <label>N10 T1212;</label>
+        <label>N20 G97 S1000 M4;</label>
+        <label>N30 G0 X18 Z30;</label>
+        <label>N40 G0 Z1.6;</label>
+        <label>N50 G94 X-1.6 Z-0.05;</label>
+        <label>N60 G0 X25 Z25;</label>
+        <label>N70 G0 G42 X-1.6 Z10;</label>
+        <label>N80 G1 Z1.5 F9;</label>
+        <label>N90 G1 Z0 F0.1;</label>
+        <label>N100 G1 X${i1};</label>
+        <label>N110 G3 X${i2} Z${i3} R${i4};</label>
+        <label>N120 G1 X${i5} Z${i6};</label>
+        <label>N130 G1 X${i7} Z${i8};</label>
+        <label>N140 G2 X${i9} Z${i10} R${i11};</label>
+        <label>N150 G1 Z${i12};</label>
+        <label>N160 G1 X${i13};</label>
+        <label>N170 G0 G40 X200 Z200;</label>
+        <label>N180 T1010;</label>
+        <label>N190 G97 S1200 M4;</label>
+        <label>N200 G70 P30 Q150;</label>
+        <label>N210 G0 G40 X200 Z200;</label>
+        <label>M30;</label>e45
         <h1>Fin del Programa</h1>
         `
         
@@ -123,26 +124,27 @@ function generar(){
         const text = document.getElementById("text")
         const programa = `
         <h1>Programa Generado</h1>
-        <label>N10 T1212</label>
-        <label>N20 G97 S1000 M4</label>
-        <label>N30 G0 X18 Z30</label>
-        <label>N40 G0 Z1.6</label>
-        <label>N50 G94 X-1.6 Z-0.05</label>
-        <label>N60 G0 X25 Z25</label>
-        <label>N70 G0 G42 X-1.6 Z10</label>
-        <label>N80 G1 Z1.5 F9</label>
-        <label>N90 G1 Z0 F0.1</label>
-        <label>N100 G1 X${i1}</label>
-        <label>N110 G3 X${i2} Z${i3} R${i4}</label>
-        <label>N120 G1 X${i5} Z${i6}</label>
-        <label>N140 G2 X${i9} Z${i10} R${i11}</label>
-        <label>N150 G1 Z${i12}</label>
-        <label>N160 G1 X${i13}</label>
-        <label>N170 G0 G40 X200 Z200</label>
-        <label>N180 T1010</label>
-        <label>N190 G97 S1200 M4</label>
-        <label>N200 G70 P30 Q150</label>
-        <label>N210 G0 G40 X200 Z200</label>
+        <label>N10 T1212;</label>
+        <label>N20 G97 S1000 M4;</label>
+        <label>N30 G0 X18 Z30;</label>
+        <label>N40 G0 Z1.6;</label>
+        <label>N50 G94 X-1.6 Z-0.05;</label>
+        <label>N60 G0 X25 Z25;</label>
+        <label>N70 G0 G42 X-1.6 Z10;</label>
+        <label>N80 G1 Z1.5 F9;</label>
+        <label>N90 G1 Z0 F0.1;</label>
+        <label>N100 G1 X${i1};</label>
+        <label>N110 G3 X${i2} Z${i3} R${i4};</label>
+        <label>N120 G1 X${i5} Z${i6};</label>
+        <label>N140 G2 X${i9} Z${i10} R${i11};</label>
+        <label>N150 G1 Z${i12};</label>
+        <label>N160 G1 X${i13};</label>
+        <label>N170 G0 G40 X200 Z200;</label>
+        <label>N180 T1010;</label>
+        <label>N190 G97 S1200 M4;</label>
+        <label>N200 G70 P30 Q150;</label>
+        <label>N210 G0 G40 X200 Z200;</label>
+        <label>M30;</label>
         <h1>Fin del Programa</h1>
         `
 
