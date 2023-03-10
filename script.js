@@ -97,7 +97,7 @@ function generar(){
         <label>N190 G97 S1200 M4;</label>
         <label>N200 G70 P30 Q150;</label>
         <label>N210 G0 G40 X200 Z200;</label>
-        <label>M30;</label>e45
+        <label>M30;</label>
         <h1>Fin del Programa</h1>
         `
         
