@@ -85,13 +85,13 @@ function generar(){
         <label>N70 G0 G42 X-1.6 Z10</label>
         <label>N80 G1 Z1.5 F9</label>
         <label>N90 G1 Z0 F0.1</label>
-        <label>N100 G1 X ${i1}</label>
-        <label>N110 G3 X ${i2} Z ${i3} R ${i4}</label>
-        <label>N120 G1 X ${i5} Z ${i6}</label>
-        <label>N130 G1 X ${i7} Z ${i8}</label>
-        <label>N140 G2 X ${i9} Z ${i10} R ${i11}</label>
-        <label>N150 G1 Z ${i12}</label>
-        <label>N160 G1 X ${i13}</label>
+        <label>N100 G1 X${i1}</label>
+        <label>N110 G3 X${i2} Z${i3} R${i4}</label>
+        <label>N120 G1 X${i5} Z${i6}</label>
+        <label>N130 G1 X${i7} Z${i8}</label>
+        <label>N140 G2 X${i9} Z${i10} R${i11}</label>
+        <label>N150 G1 Z${i12}</label>
+        <label>N160 G1 X${i13}</label>
         <label>N170 G0 G40 X200 Z200</label>
         <label>N180 T1010</label>
         <label>N190 G97 S1200 M4</label>
@@ -132,12 +132,12 @@ function generar(){
         <label>N70 G0 G42 X-1.6 Z10</label>
         <label>N80 G1 Z1.5 F9</label>
         <label>N90 G1 Z0 F0.1</label>
-        <label>N100 G1 X ${i1}</label>
-        <label>N110 G3 X ${i2} Z ${i3} R ${i4}</label>
-        <label>N120 G1 X ${i5} Z ${i6}</label>
-        <label>N140 G2 X ${i9} Z ${i10} R ${i11}</label>
-        <label>N150 G1 Z ${i12}</label>
-        <label>N160 G1 X ${i13}</label>
+        <label>N100 G1 X${i1}</label>
+        <label>N110 G3 X${i2} Z${i3} R${i4}</label>
+        <label>N120 G1 X${i5} Z${i6}</label>
+        <label>N140 G2 X${i9} Z${i10} R${i11}</label>
+        <label>N150 G1 Z${i12}</label>
+        <label>N160 G1 X${i13}</label>
         <label>N170 G0 G40 X200 Z200</label>
         <label>N180 T1010</label>
         <label>N190 G97 S1200 M4</label>
