@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Machos</title>
+</head>
+<body>
+
+    <center>
+
+    <h1>Generador de Programas para Machos</h1>
+
+    <div id="inputs">
+
+    <label>Primer Diámetro</label>
+    <input id="input1" type="number">
+
+    <label>Segundo Diámetro</label>
+    <input id="input2" type="number">
+
+    <label>Segundo Z</label>
+    <input id="input3" type="number">
+
+    <label>Radio de la Cabeza</label>
+    <input id="input4" type="number">
+
+    <label>Tercer Diámetro</label>
+    <input id="input5" type="number">
+
+    <label>Tercer Z</label>
+    <input id="input6" type="number">
+
+
+    <label>¿Existe un cuarto diámetro?</label>
+
+    <div class="box">
+
+    <select name="select" id="opt1" onchange="listenerOptionYes()">
+        <option value="value0" selected>Seleccione una opción</option>
+        <option value="value1">Sí</option>
+        <option value="value2">No</option>
+    </select>
+    </div>
+
+    <div id="later">
+    </div>
+
+    </div>
+
+
+    <input type="button" value="Generar Programa" class="button-24" onclick="generar()">
+
+
+
+    <div id="text">
+
+    </div>
+</center>
+    <script src="script.js"></script>
+</body>
+</html>
